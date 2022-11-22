@@ -1,0 +1,264 @@
+body {
+    color: rgba(255, 255, 255, 0.895);
+    font-family: 'Roboto Mono', monospace;
+    background-image:url(../img/black_net_4k_hd_black.jpg);
+    background-repeat:repeat;  
+    background-size:cover; 
+    background-position: right;
+}
+
+* {
+    margin:20px;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.header {
+    padding: auto;
+    text-align: center;
+}
+#about {
+    text-align: center;
+}
+#myskills {
+    text-align: center;
+}
+#licenses {
+    text-align: center;
+}
+#projects {
+    text-align: center;
+}
+#contact {
+    text-align: center;
+}
+#contact > p{
+    text-align: center;
+}
+
+ul.nav > li {
+    display: inline;
+    border-radius: 10px;
+    padding: 8px 20px;
+    margin: 3px;
+}
+ul.nav > li:hover {
+    border: outset gray 3px;
+    border-radius: 10px;
+    text-shadow: 0 0 20px white;
+    font-weight: bold;
+}
+
+#about > h1 {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 0 10px #d9d9d9;
+}
+li > a{
+    text-decoration: none;
+    color: white;
+}
+div#projects > a {
+    text-decoration: none;
+    color:white;
+}
+div#projects >a:hover {
+    border: solid white 2px;
+    border-radius: 20px; 
+    padding: 10px;
+    text-shadow: 0 0 10px white;
+}
+div#contact > p {
+    display: inline-flex;
+    justify-content: center;
+}
+div#contact > p > a {
+    color:white;
+    font-size: 40px;
+}
+div#contact > p > a:hover {
+    font-size: 37px;
+}
+div#contact-info > p > i{
+    color: white;
+    font-size: 15px;
+
+}
+div#contact-info > p {
+    display:inline;
+    font-size: 10px;
+}
+
+div#contact-info > p >a {
+    text-decoration: none;
+    color:white
+}
+
+div#contact-info > p >a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width:1226px) {
+    #about > h1 {
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 0 0 10px #d9d9d9;
+        margin-bottom: 50px;
+    }
+    p {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    a {
+        display: block;
+        font-size: 25px;
+    }
+
+    ul.nav > li {
+        display:block;
+        border-radius: 10px;
+        padding: 8px 20px;
+        margin: 3px;
+    }
+    div {
+        margin: 50px 0;
+    }
+    .container {
+        margin-top: 15px
+    }
+    div#contact-info > p > i{
+        color: white;
+        font-size: 10px;
+    
+    }
+    div#contact-info > p {
+        display:inline;
+        font-size: 8px;
+    }
+    div#contact > p > a:hover {
+        font-size: 27px;
+    }
+}
+@media (max-width:760px) {
+    #about > h1 {
+        font-size: 25px;
+        text-align: center;
+        text-shadow: 0 0 10px #d9d9d9;
+    }
+    p {
+        font-size: 10px;
+        margin-left:50px;
+        margin-right: 50px;
+    }
+    h2{
+        font-size: 15px;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    a {
+        display: block;
+        font-size: 15px;
+    }
+
+    ul.nav > li {
+        display:block;
+        border-radius: 10px;
+        padding: 8px 20px;
+        margin: 3px;
+    }
+    .container {
+        margin-top: 5px
+    }
+    #contact > p {
+        margin: 0;
+    } 
+
+    #contact-info >p {
+        margin: 0;
+    }
+    div#contact >p > a {
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+
+    div#contact-info > p > i{
+        color: white;
+        font-size: 15px;
+    
+    }
+    div#contact-info > p {
+        display:inline;
+        font-size: 10px;
+    }
+div#contact-info > p> i {
+    display: block;
+}
+}
+
+@media (max-width:320px) {
+    #about > h1 {
+        font-size: 25px;
+        text-align: center;
+        text-shadow: 0 0 10px #d9d9d9;
+    }
+    p {
+        font-size: 10px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    img {
+        display: block;
+    }
+    a {
+        display: block;
+        font-size: 10px;
+    }
+
+    ul.nav > li {
+        display:block;
+        border-radius: 10px;
+        padding: 8px 20px;
+        margin: 3px;
+    }
+    div.header {
+        height: fit-content;
+    }
+    .container {
+        margin-top: 5px
+    }
+    div.about {
+        margin: 0 0 ;
+    }
+    div#contact-info > p > i{
+        color: white;
+        font-size: 10px;
+    
+    }
+    div#contact-info > p {
+        display:inline;
+        font-size: 8px;
+    }
+    div#contact > p > a {
+        font-size: 20px;
+        padding: 0;
+        margin:0;
+    }
+}
